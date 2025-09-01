@@ -1,4 +1,4 @@
-# Desarrollo de Apps con low code - Power Apps
+# 🪄 Power Apps + Power Automate
 
 ## 📌 Descripción
 Este repositorio contiene aplicaciones y flujos creados con **Power Apps** y **Power Automate**.  
@@ -8,15 +8,11 @@ El objetivo es mostrar cómo desarrollar **soluciones low-code** que optimicen p
 
 ## 📂 Proyectos
 
-### 1. App de Gestión de Solicitudes + Envio de estado de la solicitud cuando se actualice con Power Automate
+### 1. App de Gestión de Solicitudes + conexión con Power Autoomate
 - **Descripción:** App en Power Apps conectada a un flujo en Power Automate que envía correos automáticamente.
-- 
--  **Tecnologías usadas:** Power Apps, Power Automate, Microsoft 365
-- [📁 Carpeta del proyecto]
 
 ---
 
-### 2. (Próximo Proyecto)
-- **Descripción:** Pendiente de añadir.
-- **Tecnologías usadas:** Power Apps, Power Automate
+- **Tecnologías usadas:** Power Apps, Power Automate, Microsoft 365
 - [📁 Carpeta del proyecto]
+
