@@ -4,45 +4,7 @@ Solución low-code para automatizar la gestión de solicitudes, eliminando el us
 
 ## 🏗️ Arquitectura de la Solución
 
-[Usuario Final] 
-       |
-       | (Registra solicitud / Consulta estado)
-       v
-+--------------------------------+
-|      Power Apps (Frontend)     |
-|                                |
-| - Formulario de solicitudes    |
-| - Galería de vistas            |
-| - Roles: Usuario & Admin       |
-+--------------------------------+
-       |  [Conectores]
-       |  (Leer/Escribir datos)
-       v
-+--------------------------------+
-|   SharePoint List (Backend)    |
-|                                |
-| - Lista "Solicitudes"          |
-| - Campos: Titulo, Estado,      |
-|   Asignado, Fecha, etc.        |
-+--------------------------------+
-       |  [Trigger]
-       |  (Cuando se modifica un ítem)
-       v
-+--------------------------------+
-|    Power Automate (Flujos)     |
-|                                |
-| 1. Flujo 1:                    |
-|    - Email confirmación        |
-|      al usuario                |
-|                                |
-| 2. Flujo 2:                    |
-|    - Email notificación        |
-|      al asignado               |
-+--------------------------------+
-       |
-       | (Envía correos)
-       v
-  [Office 365 Outlook]
+<img width="418" height="732" alt="image" src="https://github.com/user-attachments/assets/dc5553e9-58f3-482a-8fef-5e9d77c9ad52" />
 
 ## ⚙️ Componentes Utilizados
 - **Frontend:** Power Apps (Con roles de Usuario y Administrador)
